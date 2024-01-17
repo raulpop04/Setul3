@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89B5BE3B-7A24-4053-AEEE-BE48E32033EE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Setul3</RootNamespace>
+    <AssemblyName>Setul3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Problema1.cs" />
+    <Compile Include="Problema10.cs" />
+    <Compile Include="Problema11.cs" />
+    <Compile Include="Problema12.cs" />
+    <Compile Include="Problema13.cs" />
+    <Compile Include="Problema14.cs" />
+    <Compile Include="Problema15.cs" />
+    <Compile Include="Problema16.cs" />
+    <Compile Include="Problema17.cs" />
+    <Compile Include="Problema18.cs" />
+    <Compile Include="Problema19.cs" />
+    <Compile Include="Problema2.cs" />
+    <Compile Include="Problema20.cs" />
+    <Compile Include="Problema21.cs" />
+    <Compile Include="Problema22.cs" />
+    <Compile Include="Problema23.cs" />
+    <Compile Include="Problema24.cs" />
+    <Compile Include="Problema25.cs" />
+    <Compile Include="Problema26.cs" />
+    <Compile Include="Problema27.cs" />
+    <Compile Include="Problema28.cs" />
+    <Compile Include="Problema29.cs" />
+    <Compile Include="Problema3.cs" />
+    <Compile Include="Problema30.cs" />
+    <Compile Include="Problema31.cs" />
+    <Compile Include="Problema4.cs" />
+    <Compile Include="Problema5.cs" />
+    <Compile Include="Problema6.cs" />
+    <Compile Include="Problema7.cs" />
+    <Compile Include="Problema8.cs" />
+    <Compile Include="Problema9.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
